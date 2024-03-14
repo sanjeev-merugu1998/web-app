@@ -1,0 +1,49 @@
+/* .hero{
+    display:flex;
+    min-height: calc(100vh - 74px);
+    overflow: hidden;
+} */
+.popular-foods {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 48, 48);
+}
+.popular-foods__title {
+display: flex;
+color: azure;
+justify-content: center;
+align-items: center;
+}
+.popular-foods__scrollbar {
+    margin-top: 48px;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.popular-foods__filter-btn {
+    font-family: cursive;
+    padding: 10px 28px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    border-radius: 47px;
+    outline: none;
+    border: none;
+    background: rgb(48,48,48,0.05);
+    border:1px solid rgba(227, 217, 217, 0.2);
+    font-weight: 300;
+    line-height: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    color: azure;
+
+}
+.popular-foods__filter-btn img{
+    width:36px;
+    height:36px;
+    object-fit:contain;
+}
+.popular-foods__filter-btn:hover{
+   background-color: black;
+}

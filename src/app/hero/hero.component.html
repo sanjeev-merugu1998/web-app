@@ -1,0 +1,70 @@
+<div class="popular-foods" id="menu">
+    <h2 class="popular-foods__title">popular foods</h2>
+    <div class="popular-foods__scrollbar">
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="popular-foods__filter-btn">
+            <img src="../../assets/icons8-hamburger-66.png"/> burgers
+        </button>
+        <button class="popular-foods__filter-btn">
+            <img src="../../assets/icons8-sandwiches-66.png"/> sandwiches
+        </button>
+        <button class="popular-foods__filter-btn">
+            <img src="../../assets/icons8-pizza-48.png"/> pizza
+        </button>
+        <button class="popular-foods__filter-btn">
+            <img src="../../assets/icons8-french-fries-48.png"/> frenchfries
+        </button>
+        <button class="popular-foods__filter-btn">more</button>
+    </div>
+    <div class="popular-foods__catalouge"></div>
+
+    <button class="popular-foods__filter-btn">
+        <img src="../../assets/icons8-right-arrow-24.png"/>explore
+    </button>
+</div>
+<!-- <h2>{{radioTitle}}</h2>
+<label *ngFor="let radiobutton of radioItems">
+  <input type="radio" name="options" (click)="model.option = radiobutton"
+  [checked]="radiobutton === model.option">{{radiobutton}}
+</label>
+<p>
+  <button (click)="model.option = 'option1'">
+    Set option #1
+  </button>
+</p>
+<p>
+  Selected option: {{model.option}}
+</p>
+<form>
+    <label *ngFor="let option of options; let i = index">
+    <input type="radio" [(ngModel)]="selectedOption" [value]="option">{{ option }}
+</label>
+</form>
+
+<p>Selected Index: {{ getSelectedIndex() }}</p>
+
+<div class="container">
+    <h1>Angular Radio Button Example - tutsmake.com</h1>
+        
+    <form [formGroup]="form" (ngSubmit)="submit()">
+           
+        <div class="form-group">
+            <label for="gender">Gender:</label>
+            <div>
+              <input id="male" type="radio" value="male" name="gender" formControlName="gender">
+              <label for="male">Male</label>
+           </div>
+  
+           <div>
+              <input id="female" type="radio" value="female" name="gender" formControlName="gender">
+              <label for="female">Female</label>
+           </div>
+              
+            <div *ngIf="f.gender.touched && f.gender.invalid" class="alert alert-danger">
+                <div *ngIf="f.gender.errors.required">Name is required.</div>
+            </div>
+        </div>
+        
+        <button class="btn btn-primary" type="submit" [disabled]="!form.valid">Submit</button>
+    </form>
+</div> -->

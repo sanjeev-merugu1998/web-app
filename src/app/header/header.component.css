@@ -1,0 +1,79 @@
+.header__img {
+    background-image: url('/assets/food.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+
+}
+.header__nav {
+    display:flex;
+    overflow:hidden;
+    
+}
+.header__logo {
+    flex:1;
+    font-size: 22px;
+    display:flex;
+    position: relative;
+    padding:20px;
+    color: azure;
+    /* background-color: floralwhite; */
+}
+.header__logo-overlay {
+    position:absolute;
+    inset: 0;
+    width:100%;
+    z-index: 1;
+}
+.header__menu {
+    font-size: 10px;
+    padding: 20px;
+    flex:1.2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:64px;
+    list-style: none;
+    
+}
+.header__menu li {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: cursive; 
+    
+    
+}
+.header__menu a{
+    color: azure;
+}
+.header-content {
+    padding:20px;
+    box-sizing: border-box;
+    width:500px;
+    height:250px;
+    color: azure;
+    font-size: 22px;
+    /* font-weight: 600; */
+    
+}
+.header-content__buttons {
+    display: flex;
+    margin: 42px 0px 0px 0px;
+    /* flex-wrap:wrap; */
+    gap:36px;
+}
+.header-content__order ,.header-content__menu{
+    font-family: cursive;
+    line-height: 10px;
+    font-size: 20px;
+    color:azure;
+    padding: 20px;
+    border-radius: 36px;
+    cursor: pointer;
+    min-width: 212px;
+    outline: none;
+    background-color: black;
+    border: none;
+}
